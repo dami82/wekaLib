@@ -1,0 +1,9 @@
+Package: wekaLib
+Type: Package
+Title: Facilitate Communication Between WEKA and R
+Version: 1.0
+Date: 2017-10-24
+Author: Damiano Fantini
+Maintainer: Damiano Fantini <damiano.fantini@gmail.com>
+Description: Series of functions and tools to facilitate data exchange between WEKA and R.
+License: GPL-2
