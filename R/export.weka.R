@@ -30,7 +30,7 @@ function(data, filename, relation) {
     out.lines[[(length(out.lines) + 1)]] <- ""
     out.lines[[(length(out.lines) + 1)]] <- "@data"
     for (i in 1:nrow(data)) {
-      out.lines[[(length(out.lines) + 1)]] <- paste(as.vector(data[i,]), collapse = ",")
+      out.lines[[(length(out.lines) + 1)]] <- paste(as.character(data[i,]), collapse = ",")
     }
     
     # unlist
