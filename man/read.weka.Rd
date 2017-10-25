@@ -17,6 +17,6 @@ name of the ARFF file
 logical. If TRUE, a list including the dataframe and the WEKA relation is returned}
 }
 \examples{
-#df <- read.weka("kkkk")
-#head(df)
+df <- read.weka("https://raw.githubusercontent.com/dami82/wekaLib/master/data/weather.arff")
+head(df)
 }
