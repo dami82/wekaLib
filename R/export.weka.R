@@ -22,6 +22,7 @@ function(data, filename, relation) {
         attDecor <- unique(as.character(as.vector(data[,i])))
         attDecor <- paste(attDecor, collapse = ", ")
         attDecor <- paste( "{", attDecor, "}", sep = "")
+        data[,i] <- as.character(as.vector(data[,i]))
       }
       
       # attach attribute
